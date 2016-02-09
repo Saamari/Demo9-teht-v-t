@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -16,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace Car_count
+namespace eurocalculator
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -26,27 +25,6 @@ namespace Car_count
         public MainPage()
         {
             this.InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-           
-            
-            int num = int.Parse(textBlockTruck.Text);
-            num++;
-            textBlockTruck.Text = num.ToString();
-            
-            
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-           
-            int num1 = int.Parse(textBlockCar.Text);
-            num1++;
-            Debug.WriteLine("Cars = " + num1);
-            textBlockCar.Text= num1.ToString();
-
         }
     }
 }

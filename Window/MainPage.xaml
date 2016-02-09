@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Window.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Window"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="textBoxW" HorizontalAlignment="Left" Margin="1124,124,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxH" HorizontalAlignment="Left" Margin="1124,273,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxK" HorizontalAlignment="Left" Margin="1124,467,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxPa" HorizontalAlignment="Left" Margin="1124,626,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxGpa" HorizontalAlignment="Left" Margin="1124,535,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+       
+        <TextBox x:Name="textBoxPiiri" HorizontalAlignment="Left" Margin="1124,203,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="1124,376,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
